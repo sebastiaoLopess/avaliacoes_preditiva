@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
-
+import openpyxl
 # Carregar modelo e encoders
 model = joblib.load("modelo_avaliacao_carros.pkl")
 le_dict = joblib.load("encoders.pkl")
